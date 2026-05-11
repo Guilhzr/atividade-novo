@@ -2,7 +2,8 @@ valor = float(input("digite o valor do pedido:"))
 
 
 if valor <= 100:
-    desconto = 0.95
+    print(f"o valor da compra deu R${valor}.")
+    exit()
     
 
 elif valor > 100 and valor <= 299.99:
